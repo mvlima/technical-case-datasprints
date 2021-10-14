@@ -1,0 +1,77 @@
+<!-- Extends the base HTML -->
+{% extends "base.html" %}
+
+<!-- Overwrite the 'title' block-->
+{% block title %}Sign Up{% endblock %}
+
+{% block content %}
+  <form method="POST">
+    <h3 align="center">Sign Up</h3>
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input
+          type="text"
+          class="form-control"
+          id="username"
+          name="username"
+          placeholder="Username"
+        />
+        
+        <label for="email">E-mail</label>
+        <input
+          type="text"
+          class="form-control"
+          id="email"
+          name="email"
+          placeholder="Insira seu email"
+        />
+
+        <label for="password1">Senha</label>
+        <input
+          type="password"
+          class="form-control"
+          id="password1"
+          name="password1"
+          placeholder="Senha"
+        />
+
+        <label for="password2">Confirme a senha</label>
+        <input
+          type="password"
+          class="form-control"
+          id="password2"
+          name="password2"
+          placeholder="Confirme a senha"
+        />
+
+        <label for="name">Nome Completo</label>
+        <input
+          type="text"
+          class="form-control"
+          id="name"
+          name="name"
+          placeholder="Insira seu nome completo"
+        />
+
+        <label for="age">Idade</label>
+        <input
+          type="number"
+          class="form-control"
+          id="age"
+          name="age"
+          placeholder="Insira sua idade"
+        />
+
+        <label for="address">Endereço</label>
+        <input
+          type="text"
+          class="form-control"
+          id="address"
+          name="address"
+          placeholder="Insira seu endereço"
+        />
+      </div>
+
+      <button type="submit" class="btn btn-primary">Criar Usuário</button>
+  </form>
+{% endblock %}
