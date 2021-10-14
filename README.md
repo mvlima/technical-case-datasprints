@@ -16,3 +16,6 @@
 - Cadastre um usuário
 
 - Depois disso pode-se deslogar e logar de novo
+
+---
+Referências: [Vídeo](https://www.youtube.com/watch?v=dam0GPOAvVI&t=7141s) e [Código](https://github.com/techwithtim/Flask-Web-App-Tutorial)
